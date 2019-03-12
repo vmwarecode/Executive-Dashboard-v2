@@ -1,0 +1,865 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1549470786512,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "31118943-8905-4a5b-98b7-6ee05dcc89ce",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Executive Dashboard v2",
+      "namePath": "Custom Dashboards",
+      "rank": 504,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7290027c-ddca-4456-89e6-1f7896fabcba",
+            "widgetIdReceiver": "3d0bb54c-210c-4c87-aeb0-c7b2efe0608f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "845c1a29-a2ab-4fbb-ad6e-669053572bb5",
+            "widgetIdReceiver": "845ff639-599e-4875-b192-c0fa6f2fddbf"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "23bc7eea-57d4-441a-ac67-43c91cee1a3b",
+            "widgetIdReceiver": "9a26d49c-d8ea-49b2-a2fa-1f3beff2eac9"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "0e0b6518-268a-49f3-87e3-2b8d2d30d01a",
+            "widgetIdReceiver": "efca6186-a360-44b7-9f19-e2c3b490ab82"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7290027c-ddca-4456-89e6-1f7896fabcba",
+            "widgetIdReceiver": "a03ceb5b-90b2-422c-8f98-93e1facb7648"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "845c1a29-a2ab-4fbb-ad6e-669053572bb5",
+            "widgetIdReceiver": "583b09c7-3599-45c4-9eba-b4a933d85ff3"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "23bc7eea-57d4-441a-ac67-43c91cee1a3b",
+            "widgetIdReceiver": "6dfd2918-bcf7-411d-8484-4247cfd44a02"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "0e0b6518-268a-49f3-87e3-2b8d2d30d01a",
+            "widgetIdReceiver": "f2fdbf68-28ab-4dc3-a2f0-5a929069c77b"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14293-1",
+                        "isStringMetric": false,
+                        "label": "vCenters",
+                        "link": "",
+                        "metricKey": "summary|total_number_vcenters",
+                        "metricName": "Summary|Total Number of vCenter Server(s)",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14293-2",
+                        "isStringMetric": false,
+                        "label": "Datacenters",
+                        "link": "",
+                        "metricKey": "summary|total_number_datacenters",
+                        "metricName": "Summary|Total Number of Datacenters",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14293-3",
+                        "isStringMetric": false,
+                        "label": "Clusters",
+                        "link": "",
+                        "metricKey": "summary|total_number_clusters",
+                        "metricName": "Summary|Total Number of Clusters",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14293-4",
+                        "isStringMetric": false,
+                        "label": "ESXi Hosts",
+                        "link": "",
+                        "metricKey": "summary|total_number_hosts",
+                        "metricName": "Summary|Total Number of Hosts",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14293-5",
+                        "isStringMetric": false,
+                        "label": "VMs",
+                        "link": "",
+                        "metricKey": "summary|total_number_vms",
+                        "metricName": "Summary|Total Number of VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14293-6",
+                        "isStringMetric": false,
+                        "label": "Datastores",
+                        "link": "",
+                        "metricKey": "summary|total_number_datastores",
+                        "metricName": "Summary|Total Number of Datastores",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Infrastructure Counts",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 96,
+            "id": "8c2a5e11-c0ae-457d-bdeb-2f5950f5847a",
+            "title": "Infrastructure Counts",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel15801-5",
+                        "isStringMetric": false,
+                        "label": "Total Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|total_alert_count",
+                        "metricName": "vRealize Operations Generated|Total Alert Count",
+                        "metricUnitId": null,
+                        "orangeBound": 400,
+                        "redBound": 500,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": 300
+                     },
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel15801-1",
+                        "isStringMetric": false,
+                        "label": "Critical Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_critical",
+                        "metricName": "vRealize Operations Generated|Alert Count Critical",
+                        "metricUnitId": null,
+                        "orangeBound": 2,
+                        "redBound": 3,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": 1
+                     },
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel15801-2",
+                        "isStringMetric": false,
+                        "label": "Immediate Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_immediate",
+                        "metricName": "vRealize Operations Generated|Alert Count Immediate",
+                        "metricUnitId": null,
+                        "orangeBound": 1,
+                        "redBound": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": 1000000
+                     },
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel15801-4",
+                        "isStringMetric": false,
+                        "label": "Warning Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_warning",
+                        "metricName": "vRealize Operations Generated|Alert Count Warning",
+                        "metricUnitId": null,
+                        "orangeBound": 1000,
+                        "redBound": 2000,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": 1
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15801-3",
+                        "isStringMetric": false,
+                        "label": "Info Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_info",
+                        "metricName": "vRealize Operations Generated|Alert Count Info",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Alert Counts",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 96,
+            "id": "cdf5c784-6403-4079-8c04-f184009e3c90",
+            "title": "Alert Counts",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel19583-1",
+                  "mode": {"mode": false},
+                  "name": "vm health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:1_::_",
+                  "sizeBy": {
+                     "metricKey": "cpu|usage_average",
+                     "value": "CPU|Usage (%)"
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "VM Health Heatmap",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 4,
+               "x": 6,
+               "y": 3
+            },
+            "height": 609,
+            "id": "23bc7eea-57d4-441a-ac67-43c91cee1a3b",
+            "states": [{
+               "key": "perm_HeatMap_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_23bc7eea-57d4-441a-ac67-43c91cee1a3b",
+               "value": "o%3A"
+            }],
+            "title": "VM Health Heatmap",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel19798-1",
+                  "mode": {"mode": false},
+                  "name": "host health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:2_::_",
+                  "sizeBy": {
+                     "metricKey": "cpu|usage_average",
+                     "value": "CPU|Usage (%)"
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "ESXi Host Health Heatmap",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 3,
+               "x": 3,
+               "y": 3
+            },
+            "height": 609,
+            "id": "845c1a29-a2ab-4fbb-ad6e-669053572bb5",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_845c1a29-a2ab-4fbb-ad6e-669053572bb5",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_HeatMap_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_845c1a29-a2ab-4fbb-ad6e-669053572bb5",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "ESXi Host Health Heatmap",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected Cluster)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 2,
+               "x": 1,
+               "y": 19
+            },
+            "height": 324,
+            "id": "3d0bb54c-210c-4c87-aeb0-c7b2efe0608f",
+            "states": [
+               {
+                  "key": "permAlertListDateRangePicked_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_3d0bb54c-210c-4c87-aeb0-c7b2efe0608f",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateFilter_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_3d0bb54c-210c-4c87-aeb0-c7b2efe0608f",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_3d0bb54c-210c-4c87-aeb0-c7b2efe0608f",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A89%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A524%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A169%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A146%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ewidth%25253Dn%2525253A158%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ewidth%25253Dn%2525253A146%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_3d0bb54c-210c-4c87-aeb0-c7b2efe0608f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permViewMode_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_3d0bb54c-210c-4c87-aeb0-c7b2efe0608f",
+                  "value": "s%3Atime"
+               }
+            ],
+            "title": "Alert List (for selected Cluster)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel7255-1",
+                  "mode": {"mode": false},
+                  "name": "datastore health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:3_::_",
+                  "sizeBy": {
+                     "metricKey": "capacity|usedSpacePct",
+                     "value": "Capacity|Used Space (%)"
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "Datastore Health Heatmap",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 3,
+               "x": 10,
+               "y": 3
+            },
+            "height": 609,
+            "id": "0e0b6518-268a-49f3-87e3-2b8d2d30d01a",
+            "states": [{
+               "key": "perm_HeatMap_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_0e0b6518-268a-49f3-87e3-2b8d2d30d01a",
+               "value": "o%3A"
+            }],
+            "title": "Datastore Health Heatmap",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel6955-1",
+                  "mode": {"mode": false},
+                  "name": "cluster health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:4_::_",
+                  "sizeBy": {
+                     "metricKey": "cpu|capacity_usagepct_average",
+                     "value": "CPU|Capacity Usage (%)"
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "Cluster Health Heatmap",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 2,
+               "x": 1,
+               "y": 3
+            },
+            "height": 609,
+            "id": "7290027c-ddca-4456-89e6-1f7896fabcba",
+            "states": [{
+               "key": "perm_HeatMap_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_7290027c-ddca-4456-89e6-1f7896fabcba",
+               "value": "o%3A"
+            }],
+            "title": "Cluster Health Heatmap",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected ESXi Host)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 3,
+               "y": 19
+            },
+            "height": 324,
+            "id": "845ff639-599e-4875-b192-c0fa6f2fddbf",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_845ff639-599e-4875-b192-c0fa6f2fddbf",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permViewMode_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_845ff639-599e-4875-b192-c0fa6f2fddbf",
+                  "value": "s%3Atime"
+               }
+            ],
+            "title": "Alert List (for selected ESXi Host)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected VM)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 6,
+               "y": 19
+            },
+            "height": 324,
+            "id": "9a26d49c-d8ea-49b2-a2fa-1f3beff2eac9",
+            "states": [
+               {
+                  "key": "permViewMode_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_9a26d49c-d8ea-49b2-a2fa-1f3beff2eac9",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_9a26d49c-d8ea-49b2-a2fa-1f3beff2eac9",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Alert List (for selected VM)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected Datastore)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 19
+            },
+            "height": 324,
+            "id": "efca6186-a360-44b7-9f19-e2c3b490ab82",
+            "states": [
+               {
+                  "key": "permAlertGrid_perm_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_efca6186-a360-44b7-9f19-e2c3b490ab82",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC"
+               },
+               {
+                  "key": "permViewMode_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_efca6186-a360-44b7-9f19-e2c3b490ab82",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_31118943-8905-4a5b-98b7-6ee05dcc89ce_efca6186-a360-44b7-9f19-e2c3b490ab82",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Alert List (for selected Datastore)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "Alert Volume (for selected VM)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 6,
+               "y": 14
+            },
+            "height": 267,
+            "id": "6dfd2918-bcf7-411d-8484-4247cfd44a02",
+            "title": "Alert Volume (for selected VM)",
+            "type": "IntSummaryAlertVolume"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "Alert Volume (for selected ESXi Host)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 3,
+               "y": 14
+            },
+            "height": 267,
+            "id": "583b09c7-3599-45c4-9eba-b4a933d85ff3",
+            "title": "Alert Volume (for selected ESXi Host)",
+            "type": "IntSummaryAlertVolume"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "Alert Volume (for selected Cluster)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 2,
+               "x": 1,
+               "y": 14
+            },
+            "height": 267,
+            "id": "a03ceb5b-90b2-422c-8f98-93e1facb7648",
+            "title": "Alert Volume (for selected Cluster)",
+            "type": "IntSummaryAlertVolume"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "Alert Volume (for selected Datastore)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 10,
+               "y": 14
+            },
+            "height": 267,
+            "id": "f2fdbf68-28ab-4dc3-a2f0-5a929069c77b",
+            "title": "Alert Volume (for selected Datastore)",
+            "type": "IntSummaryAlertVolume"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "vSphere World"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "Datastore"
+      }
+   ]},
+   "uuid": "e93c6072-695d-47e9-88e9-2642fca60c35"
+}
